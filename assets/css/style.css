@@ -1,13 +1,16 @@
+/* universal selector */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* styling for body element */
 body {
   background-color: #d9dcd6;
 }
 
+/* styling for header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ body {
   color: #ffffff;
 }
 
+/* styling for h1 in header */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* styling for span in h1 in header */
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/* styling for nav in header */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,10 +39,12 @@ body {
   font-size: 20px;
 }
 
+/* styling for ul in nav in header */
 .header nav ul {
   list-style-type: none;
 }
 
+/* styling for li in ul in nav in header */
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -51,6 +59,7 @@ p {
   font-size: 16px;
 }
 
+/* styling for banner image */
 .hero {
   height: 800px;
   width: 100%;
@@ -70,12 +79,14 @@ p {
   margin-left: 25px;
 }
 
+/* styling for main content */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* styling for aside */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,22 +98,26 @@ p {
   background-color: #2589bd;
 }
 
+/* styling for section in aside */
 .benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* styling for h3 in section in aside */
 .benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* styling for image in section in aside */
 .benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* styling for sections in content */
 .content-section {
   margin-bottom: 20px;
   padding: 50px;
@@ -112,15 +127,18 @@ p {
   color: #ffffff;
 }
 
+/* styling for images in sections in main */
 .content-section img {
   max-height: 200px;
 }
 
+/* styling for h2 in sections in main */
 .content-section h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* styling for footer */
 .footer {
   padding: 30px;
   clear: both;
