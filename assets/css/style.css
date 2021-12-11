@@ -27,7 +27,7 @@ body {
 
 /* styling for span in h1 in header */
 .header h1 .seo {
-  color: #d9dcd6;
+  color: #6b6d6a;
 }
 
 /* styling for nav in header */
@@ -37,9 +37,8 @@ body {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  /* styling for ul in nav in header */
 }
-
-/* styling for ul in nav in header */
 .header nav ul {
   list-style-type: none;
 }
